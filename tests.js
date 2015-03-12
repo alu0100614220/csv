@@ -3,7 +3,7 @@ var assert = chai.assert;
 suite('CSV Tests', function() {
   setup(function(){
         if (typeof __html__ !== 'undefined') {
-            document.body.innerHTML = __html__['  index.html'];
+            document.body.innerHTML = __html__['index.html'];
             original = document.getElementById('original');
             finaltable = document.getElementById('finaltable');
         }
@@ -13,12 +13,12 @@ suite('CSV Tests', function() {
     calculate();
     assert.match(finaltable.innerHTML, /class="error"/);
   });
-  
+
   test('local store work correctly', function () {
     assert.deepEqual(localStorage.original, 
             "\"Name\", \"Lastname\" \n \"Adrian\", \"Mesa\", \"Jaubert\"");
   });
-  
+
   test('Right input', function () {
     original.value = '"Name","Lastname"\n"Adrian","Jaubert"'
     calculate();
