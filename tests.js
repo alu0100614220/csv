@@ -1,6 +1,13 @@
 var assert = chai.assert;
 
 suite('CSV Tests', function() {
+  setup(function(){
+        if (typeof __html__ !== 'undefined') {
+            document.body.innerHTML = __html__['  index.html'];
+            original = document.getElementById('original');
+            finaltable = document.getElementById('finaltable');
+        }
+    });
   test('Wrong input', function() {
     original.value = '"Name", "Lastname" \n "Adrian", "Mesa", "Jaubert"';
     calculate();
