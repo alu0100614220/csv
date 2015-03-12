@@ -1,0 +1,74 @@
+#finaltable:hover td {
+  background-color: green; 
+  transition: background-color 300ms ease-out 0s;
+}
+tr:nth-child(odd) { background-color: rgba(0, 140, 186, 0.85); }
+tr:nth-child(even) { background-color: rgba(0, 72, 186, 0.85); }
+
+#result      { border-color: #2FF923; }
+
+input {
+  text-align: right;
+  border: none;
+}
+
+body {
+    font-family: 'Source Code Pro', sans-serif; color: #eeeeee; 
+                 font-size: large;
+    border-top: 6px solid #38c5c5;
+    background-color: gray;
+}
+textarea {
+    background: black;
+    color: white; 
+}
+table {
+  margin-bottom: 1.25rem;
+  border: 1px solid #6f6f6f;
+  margin: 0 auto;
+  border: inset; border-color: white; 
+}
+
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h1      { text-align: center; font-size: x-large; }
+
+th, td  
+{ 
+    vertical-align: top; text-align: right;
+}
+
+tr.error { background-color: red; }
+
+#footer {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+#footer a
+{
+    color:#38c5c5;
+}
+
+#footer ul
+{
+    text-align:center;
+}
+
+#footer li 
+{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    display: inline-block;
+    color: #eeeeee;
+    text-decoration: none;    
+}
