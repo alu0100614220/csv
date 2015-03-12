@@ -1,0 +1,23 @@
+{
+  "name": "csv",
+  "version": "1.0.0",
+  "description": "Comma Separated Values",
+  "main": "csv.js",
+  "scripts": {
+    "test": "open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alu0100614220/csv.git"
+  },
+  "author": "Adrian Mesa Jauber & Juan Antonio Oliva Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100614220/csv/issues"
+  },
+  "homepage": "https://github.com/alu0100614220/csv",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "^2.2.1"
+  }
+}
