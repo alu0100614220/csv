@@ -23,4 +23,3 @@ Para probar la aplicación, accede a [la gh-page de la aplicación](http://alu01
 
 ### Tests
 
-Para ver las pruebas puede acceder, en [la página de la aplicación](http://mauriciomcavalleris.github.io/CSV/) al botón  [tests](http://mauriciomcavalleris.github.io/CSV/tests/index.html).
