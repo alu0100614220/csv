@@ -21,5 +21,3 @@ Para probar la aplicación, accede a [la gh-page de la aplicación](http://alu01
 ### Integración continua con Travis
 [![Build Status](https://travis-ci.org/alu0100614220/csv.svg?branch=gh-pages)](https://travis-ci.org/alu0100614220/csv)
 
-### Tests
-
