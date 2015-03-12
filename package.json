@@ -4,7 +4,7 @@
   "description": "Comma Separated Values",
   "main": "csv.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
