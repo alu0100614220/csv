@@ -16,7 +16,9 @@
     "url": "https://github.com/alu0100614220/csv/issues"
   },
   "homepage": "https://github.com/alu0100614220/csv",
-
+  "engines": {
+    "node": "0.10.x"
+  },
    "dependencies": {
       "jquery": "*",
       "underscore": "*",
