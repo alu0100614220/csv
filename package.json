@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/alu0100614220/csv",
   "engines": {
-    "node": "0.10.x"
+    "node": "0.10.x",
+    "npm":  "2.2.x"
   },
    "dependencies": {
       "jquery": "*",
