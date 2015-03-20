@@ -47,16 +47,22 @@
         </table>
         <div style="width: 20%; margin: 0 auto;">
             <br>
-            <button type="button">Check</button>
-            <button type="button"><li><a href= "test.html" > Test </a></li></button><br>
+            <button type="button">Check</button><br>
             <br>
-            <div> </div>
         </div>
         <span class="output" id="finaltable"></span>
+        <div id="mocha"></div>
         <script src="http://chaijs.com/chai.js"></script>
+        <script type="text/javascript" src="csv.js"></script>
+        <script src="node_modules/mocha/mocha.js"></script>
+		<script src="blanket.js"
+        data-cover-adapter="mocha-blanket.js"></script>
+        <script>mocha.setup('tdd')</script>
+        <script src="tests.js"></script>
+        <script>mocha.run();</script>
+
         <div id="footer">
             <ul>
-            	
                 <li><a href="https://alu0100614220.github.io">Adrian Mesa Jaubert</a></li>
                 <li><a href="https://github.com/alu0100614220/">GitHub</a></li>
                 <br>

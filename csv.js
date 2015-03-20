@@ -15,6 +15,7 @@ function calculate() {
   
   //Saving original string to use localStorage
   var temp = original.value;
+  if (window.localStorage) localStorage.original = temp;
 
   //
   // This regExp have tree side
@@ -31,10 +32,9 @@ function calculate() {
   var lines = temp.split(/\n+\s*/);
 
   var commonLength = NaN;
-  
   var r = [];
 
-  if (window.localStorage) localStorage.original = temp;
+  
   
   for (var t in lines) {
     
