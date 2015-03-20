@@ -185,8 +185,8 @@ hr {
   color: #b5e853;
 }
 
-/* Buttons
-*/
+
+
 
 .btn {
   display: inline-block;
@@ -231,6 +231,19 @@ a {
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
+a:link {
+    color: #FF0000;
+    text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+    color: black;
+}
+/* Buttons
+*/
 /* Clearfix */
 
 .cf:before, .cf:after {
